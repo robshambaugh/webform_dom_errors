@@ -1,0 +1,8 @@
+name: 'WebForm DOM Errors'
+type: module
+description: 'Adds persistent error message placeholders to web forms for improved accessibility.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:webform
+  
