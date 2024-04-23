@@ -1,0 +1,12 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function webform_dom_errors_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if (strpos($form_id, 'webform') === 0) {
+    $form['#attached']['library'][] = 'webform_dom_errors/webform_dom_errors';
+  }
+}
