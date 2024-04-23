@@ -1,0 +1,7 @@
+webform_dom_errors:
+  version: 1.0
+  js:
+    js/webform_dom_errors.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
